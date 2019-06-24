@@ -33,6 +33,7 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
+  cursor: pointer;
 }
 nav a:hover {
   color: #000;
@@ -41,7 +42,7 @@ nav a:before {
   content: '';
   display: block;
   height: 5px;
-  background-color: #ec84e7;
+  background-color: dodgerblue;
   position: absolute;
   top: 0;
   width: 0%;

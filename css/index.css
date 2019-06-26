@@ -227,7 +227,7 @@ nav a:hover::before {
   justify-content: space-between;
   align-items: none;
   flex-direction: column;
-  background-color: #fff;
+  background-color: dodgerblue;
   width: 380px;
   margin-bottom: 16px;
   padding: 24px;

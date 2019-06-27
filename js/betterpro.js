@@ -1,9 +1,9 @@
-var signupbtn = document.querySelector("btn_getStarted");
-signupbtn.addEventListener('mouseleave', function(event){
-  event.target.style.color = 'none';
+const signupbtn = document.querySelector("#btn1");
+signupbtn.addEventListener('mouseleave', event =>{
+  event.target.style.background = 'black';
 });
 
-var signupbtn2 = document.querySelector("btn_getStarted");
-signupbtn2.addEventListener('mouseenter', function(event){
-  event.target.style.color = '2px solid red';
+const signupbtn2 = document.querySelector("#btn1");
+signupbtn2.addEventListener('mouseenter', event =>{
+  event.target.style.background = 'dodgerblue';
 });

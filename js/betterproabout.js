@@ -10,11 +10,11 @@ upperButton2.addEventListener('mouseenter', event =>{
 
 
 const upperButton3 = document.querySelector("#up_btn2")
-upperButton1.addEventListener('mouseleave', event =>{
+upperButton3.addEventListener('mouseleave', event =>{
   event.target.style.background = 'dodgerblue';
 });
 
 const upperButton4 = document.querySelector("#up_btn2"); 
-upperButton2.addEventListener('mouseenter', event =>{
+upperButton4.addEventListener('mouseenter', event =>{
   event.target.style.background = 'black';
 });

@@ -14,6 +14,21 @@
 .border-bottom-grey {
   border-bottom: 1px solid lightgrey;
 }
+.space-things {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.btn_getStarted {
+  background: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  text-decoration-color: black;
+  font-size: 20px;
+}
 @media (max-width: 500px) {
   body {
     margin: 0%;
@@ -204,6 +219,57 @@ nav a:hover::before {
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
+}
+h2 {
+  padding: 15px;
+}
+p {
+  padding: 0 15px;
+}
+.space-images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.space-images img {
+  width: 28%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
+}
+.visit-planets {
+  padding: 15px;
+}
+.visit-planets h3 {
+  margin-top: 11px;
+}
+.visit-planets p {
+  margin-top: 13px;
+}
+.walk {
+  margin-top: 60px;
+  border-top: 1px solid #dee2e6;
+  padding: 50px 60px;
+  display: flex;
+  justify-content: center;
+}
+.walk .walk-text {
+  width: 50%;
+}
+.walk .walk-text h3 {
+  margin-bottom: 10px;
+}
+.walk .walk-text p {
+  margin-bottom: 26px;
+}
+.walk .walk-img {
+  width: 46%;
+  margin-left: 4%;
+}
+.walk .walk-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 .cards-container {
   display: flex;
